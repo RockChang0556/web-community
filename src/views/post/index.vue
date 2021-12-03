@@ -1,14 +1,11 @@
 <!--
  * @Author: Rock Chang
  * @Date: 2021-08-21 17:26:16
- * @LastEditTime: 2021-08-21 17:50:08
+ * @LastEditTime: 2021-12-03 18:14:27
  * @Description: 
 -->
 <template>
-	<div class="user-wrap">
-		<global-header :user="currentUser"></global-header>
-		<router-view></router-view>
-	</div>
+	<div class="post-wrap">详情</div>
 </template>
 
 <script lang="ts">
@@ -17,7 +14,7 @@ import { useStore } from 'vuex';
 import GlobalHeader from '@/components/layout/header.vue';
 
 export default defineComponent({
-	name: 'user-wrap',
+	name: 'post-wrap',
 	components: { GlobalHeader },
 	props: {},
 	setup() {

@@ -1,17 +1,17 @@
 <!--
  * @Author: Rock Chang
- * @Date: 2021-08-19 03:10:33
- * @LastEditTime: 2021-08-19 03:10:52
+ * @Date: 2021-12-03 18:21:31
+ * @LastEditTime: 2021-12-03 18:30:34
  * @Description: 
 -->
 <template>
-	<div class="defaults">user-list2</div>
+	<div class="defaults1">add</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 export default defineComponent({
-	name: 'defaults',
+	name: 'defaults1',
 	components: {},
 	props: {},
 	setup() {
@@ -21,4 +21,3 @@ export default defineComponent({
 </script>
 
 <style lang="less"></style>
-

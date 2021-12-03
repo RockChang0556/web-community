@@ -1,7 +1,7 @@
 /*
  * @Author: Rock Chang
  * @Date: 2021-08-08 15:00:23
- * @LastEditTime: 2021-08-21 18:29:11
+ * @LastEditTime: 2021-12-03 11:56:26
  * @Description:
  */
 // element 按需引入
@@ -10,7 +10,6 @@ import {
 	ElMenu,
 	ElSubmenu,
 	ElMenuItem,
-	ElUpload,
 	ElRadio,
 	ElRadioGroup,
 	ElTabs,
@@ -34,7 +33,6 @@ const components = [
 	ElMenu,
 	ElSubmenu,
 	ElMenuItem,
-	ElUpload,
 	ElRadio,
 	ElRadioGroup,
 	ElTabs,

@@ -1,15 +1,11 @@
 <!--
  * @Author: Rock Chang
  * @Date: 2021-08-05 11:31:57
- * @LastEditTime: 2021-11-22 16:40:43
+ * @LastEditTime: 2021-12-03 18:34:48
  * @Description: 
 -->
 <template>
-	<router-view v-slot="{ Component }" v-loading.fullscreen.lock="loading">
-		<transition name="el-fade-in-linear">
-			<component :is="Component" />
-		</transition>
-	</router-view>
+	<router-view v-loading.fullscreen.lock="loading"></router-view>
 </template>
 
 <script lang="ts">

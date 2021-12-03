@@ -1,24 +1,24 @@
 <!--
  * @Author: Rock Chang
- * @Date: 2021-08-19 03:10:33
- * @LastEditTime: 2021-08-19 03:10:44
+ * @Date: 2021-08-21 17:26:16
+ * @LastEditTime: 2021-12-03 18:25:51
  * @Description: 
 -->
 <template>
-	<div class="defaults">user-list</div>
+	<div class="editor-wrap">
+		<router-view></router-view>
+	</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+
 export default defineComponent({
-	name: 'defaults',
+	name: 'editor-wrap',
 	components: {},
 	props: {},
-	setup() {
-		return {};
-	},
+	setup() {},
 });
 </script>
 
 <style lang="less"></style>
-

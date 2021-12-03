@@ -6,7 +6,6 @@ import { ElMessage } from 'element-plus';
 import store from '@/store';
 import Config from '@/config';
 import router from '@/router';
-import autoJump from '@/utils/auto-jump';
 import ErrorCode from '@/config/error-code';
 import { getToken, saveTokens } from '@/utils/token';
 
@@ -48,9 +47,6 @@ const _axios = axios.create(config);
 
 _axios.interceptors.request.use(
 	originConfig => {
-		// 有 API 请求重新计时
-		autoJump(router);
-
 		const reqConfig: any = { ...originConfig };
 
 		// step1: 容错处理
