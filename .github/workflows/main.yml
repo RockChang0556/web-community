@@ -40,5 +40,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
-          BRANCH: main
+          BRANCH: gh-pages
           FOLDER: dist
