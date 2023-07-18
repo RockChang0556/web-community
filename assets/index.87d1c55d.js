@@ -1,0 +1,1 @@
+import{_ as s,d as r,u as a,c as e,o,a as t}from"./index.61af0d69.js";import{G as n}from"./header.6784ea85.js";const p=r({name:"post-wrap",components:{GlobalHeader:n},props:{},setup(){const s=a();return{currentUser:e((()=>s.state.user.userInfo))}}}),u={class:"post-wrap"};var d=s(p,[["render",function(s,r,a,e,n,p){return o(),t("div",u,"详情")}]]);export{d as default};

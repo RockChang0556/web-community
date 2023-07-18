@@ -1,0 +1,1 @@
+import{_ as a,d as s,o as e,a as d}from"./index.61af0d69.js";const t=s({name:"defaults1",components:{},props:{},setup:()=>({})}),n={class:"defaults1"};var o=a(t,[["render",function(a,s,t,o,r,f){return e(),d("div",n,"add")}]]);export{o as default};

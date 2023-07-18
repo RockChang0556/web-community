@@ -1,0 +1,1 @@
+import{_ as r,d as a,r as s,o as e,a as o,b as t}from"./index.61af0d69.js";const n=a({name:"editor-wrap",components:{},props:{},setup(){}}),d={class:"editor-wrap"};var p=r(n,[["render",function(r,a,n,p,i,c){const u=s("router-view");return e(),o("div",d,[t(u)])}]]);export{p as default};
